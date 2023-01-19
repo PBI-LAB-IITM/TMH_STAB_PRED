@@ -52,6 +52,8 @@ error 2: Enter Proper PDB File or PDB File missing in input folder
 > - (***solution: check the input for the presence of  PDB files and their naming should have .pdb extension***)
 
 ##
+## Example
+Download the folder from https://drive.google.com/drive/folders/1C_Hb7PZl2VukUtYCPBlVZQDIQySWHffr?usp=share_link  and follow the tutorial from step 4
 ## Contact
 > 
 >
