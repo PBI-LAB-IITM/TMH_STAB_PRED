@@ -10,8 +10,14 @@
 
 ##
 ## **Requirements**
-+ Python distribution
-+ Install Python libraries such as,
+>> Download the foldX distribution from  https://foldxsuite.crg.eu/user/register 
+>>
+>> or 
+>>
+>> Download the  foldX folder from https://drive.google.com/file/d/1Dbdgt5KFa_VmgMcqEj9oM7Fckzj5CKaK/view?usp=sharing
+>> 
+>>Python distribution
+>> Install Python libraries such as,
 >> 1. Biopython
 >> 2. mdtraj
 >> 3. tabulate
@@ -24,17 +30,19 @@
 >
 > 2.  Placing the **.pdb** files in the *input folder* and making sure the file name ends in **.pdb** is required will allow the protein to anticipate their stability. (Missing extension gives **error 2**) (for the complete list of errors, refer possible error section below).
 >
-> 3. In the *src directory*, look for the Python file ***run.py***; this programme doesn't require any command-line inputs.
+> 3. The ***foldX executable file and molecules folder*** should be added to the *src directory* in the **TMH Stability Predictor** folder after extracting (refer requirements section for foldx downloads).
 >
-> 4. Now open the terminal and go to the folder containing ***run.py***. To execute the prediction command code, enter any one of these commands:
+> 4. In the *src directory*, look for the Python file ***run.py***; this programme doesn't require any command-line inputs.
+>
+> 5. Now open the terminal and go to the folder containing ***run.py***. To execute the prediction command code, enter any one of these commands:
 
                                          python run.py   or python3 run.py
 >
-> 5. After executing the code ***run.py***, check for any package installation or import errors. Before running the code again, try to install any missing packages that may have caused the error.
+> 6. After executing the code ***run.py***, check for any package installation or import errors. Before running the code again, try to install any missing packages that may have caused the error.
 >
-> 6. Several files were generated in the *src* folder once the code had begun to execute, and the final output, along with the predicted stability and computed features, was shown in the terminal and saved to the file ***final.csv***.
+> 7. Several files were generated in the *src* folder once the code had begun to execute, and the final output, along with the predicted stability and computed features, was shown in the terminal and saved to the file ***final.csv***.
 >
-> 7. If you are unable to see the output, refer the possible error section for more details.
+> 8. If you are unable to see the output, refer the possible error section for more details.
 ##
 ## **Possible errors**
 error 1: Package/module not found 
